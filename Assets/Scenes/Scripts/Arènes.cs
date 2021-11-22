@@ -50,6 +50,12 @@ public class Arènes : MonoBehaviour
             Arène1.transform.position = invisible;
             Arène2.transform.position = visible;
         }
+
+        if (étapeFinie == 2)
+        {
+            Arène2.transform.position = invisible;
+            Arène3.transform.position = visible;
+        }
     }
 
     // Update is called once per frame
